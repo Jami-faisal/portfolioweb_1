@@ -1,0 +1,279 @@
+/* CSS Variable */
+:root{
+    --title--:40px;
+    --primaryColor--: #9929fb;
+    --secondarycolor:rgb(169, 158, 158) ;
+}
+
+#body{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    width: 100%;
+}
+#logo{
+    
+    width: 40px;
+    height: 40px;
+    background-color: var(--primaryColor--);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primaryColor--);
+    padding: 15px 40px ;
+}
+.navbar a {  /* Fixed: Changed from "nav a" to ".navbar a" to match HTML */
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #a043ff;
+}
+
+#circle{
+    width: 40px;
+    height: 40px;
+    background: #a043ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: var(--primaryColor--);
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left{
+    display:flex;
+    align-items: center;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background: #a043ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.center{  /* This now matches the HTML class="center" */
+    color: white;
+    margin: 0 10px;
+}
+
+.center a {  /* Added: Basic styling for footer links (color and no underline) */
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+#Left{
+    /* border: 2px solid red; */
+    width: 49%;
+    height: 400px;
+    display: inline-block;
+
+}
+#text>button{
+    background-color: var(--primaryColor-- );
+    border-radius: 20px;
+    /* height: 40px; */
+    width: 90px;
+    border: none;
+    color: white;
+
+}
+#right{
+    /* border: 2px solid green; */
+    width: 49%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top ;
+}
+
+#text{
+    /* border: 1px solid blue; */
+    margin: 50px 30px;
+    padding: 30px;
+}
+
+
+
+
+#right>img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#title{
+    width: 50%;
+    border: 1px solid black;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+#title>h1{
+font-size:var(--title--)
+    
+}
+
+#title>p{
+    
+font-size: 20px;
+color: rgb(169, 158, 158);
+
+}
+
+
+
+#card{
+    width: 390px;
+    /* height: 700px; */
+    border-radius: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 60px;
+}
+
+
+#image{
+    width: 100%;
+    
+}
+
+#image>img{
+    width: 100%;
+
+}
+
+#cardtext>h6{
+
+    color:var(--secondarycolor) ;
+    
+}
+
+#cardtext>button{
+    padding: 10px;
+    background-color:rgb(188, 179, 179);
+    border-radius: 10px;
+    
+    width: 90px;
+    border: none;
+    color: black;
+    /* border:none; */
+}
+
+#cardtext{
+text-align: center;
+}
+
+
+
+
+
+
+#card2{
+    width: 390px;
+    margin: 60 px;
+    /* height: 700px; */
+    border-radius: 50px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+
+#image2{
+    width: 100%;
+    
+}
+
+#image2>img{
+    width: 100%;
+
+}
+
+#cardtext2>h6{
+
+    color:var(--secondarycolor) ;
+    
+}
+
+#cardtext2>button{
+    padding: 10px;
+    background-color:rgb(188, 179, 179);
+    border-radius: 10px;
+    
+    width: 90px;
+    border: none;
+    color: black;
+    /* border:none; */
+}
+
+#cardtext2{
+text-align: center;
+}
